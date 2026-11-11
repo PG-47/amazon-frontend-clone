@@ -15,16 +15,26 @@ body{
 }
 
 
+
 .educational-banner {
-    background-color: #fff4cc;
-    color: #664d03;
+    background: linear-gradient(90deg, #0f172a, #1e293b, #0f172a);
+    color: #f8fafc;
     text-align: center;
+    padding: 12px 20px;
     font-size: 13px;
-    font-weight: 600;
-    padding: 10px 15px;
-    letter-spacing: 0.2px;
-    border-bottom: 1px solid #f0d98c;
+    letter-spacing: 0.3px;
+    border-bottom: 1px solid #334155;
 }
+
+.educational-banner strong {
+    color: #fbbf24;
+    font-weight: 700;
+}
+
+.educational-banner span {
+    color: #cbd5e1;
+}
+
 
 
 /* --------------------------------------------- NAVBAR SECTION ---------------------------------------------- */
